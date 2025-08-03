@@ -687,7 +687,7 @@ class UPSERVERHandler(SimpleHTTPRequestHandler):
         </table>
         
         <div class="footer">
-            <div>UPSERVER v1.0 | BLACK ICE TERMINAL</div>
+            <div>UPSERVER v1.0 | @seven</div>
             <div>SYSTEM STATUS: ONLINE | SECTOR: {os.path.basename(os.path.abspath(path))}</div>
             <div>LAST REFRESH: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</div>
             <div>/// WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead. ///</div>
